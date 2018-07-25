@@ -1,5 +1,5 @@
 {
-    "name": "munish/laravel-qtumd",
+    "name": "mamunish/laravel-qtumd",
     "type": "library",
     "description": "Qtum JSON-RPC  for Laravel",
     "keywords": ["laravel","bitcoin","api","jsonrpc","guzzle"],
