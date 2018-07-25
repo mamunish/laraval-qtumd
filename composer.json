@@ -5,6 +5,7 @@
     "keywords": ["laravel","bitcoin","api","jsonrpc","guzzle"],
     "homepage": "https://github.com/mamunish/laravel-qtumd",
     "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Munish",
