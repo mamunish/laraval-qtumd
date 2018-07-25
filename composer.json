@@ -1,7 +1,7 @@
 {
-    "name": "munish/laravel-bitcoinrpc",
+    "name": "munish/laravel-qtumd",
     "type": "library",
-    "description": "Qtum JSON-RPC Service Provider for Laravel",
+    "description": "Qtum JSON-RPC  for Laravel",
     "keywords": ["laravel","bitcoin","api","jsonrpc","guzzle"],
     "homepage": "https://github.com/mamunish/laravel-qtumd",
     "license": "MIT",
