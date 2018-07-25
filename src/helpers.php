@@ -4,7 +4,7 @@ if (! function_exists('qtumd')) {
     /**
      * Get bitcoind client instance.
      *
-     * @return \Denpa\Bitcoin\Client
+     * @return \Munish\Qtum\Client
      */
     function qtumd()
     {
