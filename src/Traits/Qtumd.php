@@ -1,6 +1,6 @@
 <?php
 
-namespace Munish\Qtum\Traits;
+namespace Gegosoft\Qtum\Traits;
 
 trait Qtumd
 {

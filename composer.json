@@ -1,15 +1,15 @@
 {
-    "name": "mamunish/laravel-qtumd",
+    "name": "gegosoft/laravel-qtumdrpc",
     "type": "library",
     "description": "Qtum JSON-RPC  for Laravel",
     "keywords": ["laravel","bitcoin","api","jsonrpc","guzzle"],
-    "homepage": "https://github.com/mamunish/laravel-qtumd",
+    "homepage": "https://github.com/gegosoft/laravel-qtumdrpc",
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
         {
             "name": "Munish",
-            "email": "munish.ciet.itl22@gmail.com",
+            "email": "munish@gegosoft.com",
             "role": "Developer"
         }
     ],
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4" : {
-            "Munish\\Qtum\\": "src/"
+            "Gegosoft\\Qtum\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Munish\\Bitcoin\\Providers\\ServiceProvider"
+                "Gegosoft\\Qtum\\Providers\\ServiceProvider"
             ]
         }
     }

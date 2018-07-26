@@ -1,8 +1,8 @@
 <?php
 
-namespace Munish\Qtum\Providers;
+namespace Gegosoft\Qtum\Providers;
 
-use Munish\Qtum\Client as QtumClient;
+use Gegosoft\Qtum\Client as QtumClient;
 use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 class ServiceProvider extends IlluminateServiceProvider
@@ -40,7 +40,7 @@ class ServiceProvider extends IlluminateServiceProvider
     protected function registerAliases()
     {
         $aliases = [
-            'qtumd' => 'Munish\Qtum\Client',
+            'qtumd' => 'Gegosoft\Qtum\Client',
         ];
 
         foreach ($aliases as $key => $aliases) {

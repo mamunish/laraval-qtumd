@@ -1,10 +1,10 @@
 <?php
 
-namespace Munish\Qtum\Facades;
+namespace Gegosoft\Qtum\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Bitcoind extends Facade
+class Qtumd extends Facade
 {
     /**
      * Get the registered name of the component.
